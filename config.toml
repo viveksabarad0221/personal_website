@@ -23,8 +23,8 @@ enableRobotsTXT = true
   [params.profileMode]
     enabled = true
     title = "Vivek Sabarad"
-    subtitle = "Graduate student in Physics at IISER Pune. Incoming PhD, University of Vienna (Prof. Walther). Quantum ML and NMR-based quantum information."
-    imageUrl = "images/profile.svg"
+    subtitle = "Graduate student in Physics at IISER Pune. Incoming PhD at University of Vienna. Quantum ML, Quantum Photonics and NMR-based quantum information."
+    imageUrl = "images/20201103.jpg"
     imageTitle = "Vivek Sabarad"
     imageWidth = 160
     imageHeight = 160
