@@ -2,7 +2,9 @@ baseURL = "https://viveksabarad0221.github.io/personal_website/"
 languageCode = "en-us"
 title = "Vivek Sabarad"
 theme = "PaperMod"
-paginate = 10
+
+[pagination]
+  pagerSize = 10
 enableRobotsTXT = true
 
 [outputs]
@@ -51,10 +53,10 @@ enableRobotsTXT = true
     url = "https://github.com/viveksabarad0221"
   [[params.socialIcons]]
     name = "linkedin"
-  url = "https://www.linkedin.com/in/vivek-sabarad-7a206a1bb"
+    url = "https://www.linkedin.com/in/vivek-sabarad-7a206a1bb"
   [[params.socialIcons]]
     name = "email"
-  url = "mailto:vivek.sabarad@students.iiserpune.ac.in"
+    url = "mailto:vivek.sabarad@students.iiserpune.ac.in"
 
 [[menu.main]]
   name = "About"
