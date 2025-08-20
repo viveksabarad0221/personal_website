@@ -18,6 +18,28 @@ enableRobotsTXT = true
   disableScrollToTop = false
   hideFooter = false
 
+  [params.profileMode]
+    enabled = true
+    title = "Vivek Sabarad"
+    subtitle = "Graduate student in Physics at IISER Pune. Incoming PhD, University of Vienna (Prof. Walther). Quantum ML and NMR-based quantum information."
+    imageUrl = "images/profile.svg"
+    imageTitle = "Vivek Sabarad"
+    imageWidth = 160
+    imageHeight = 160
+
+  [[params.profileMode.buttons]]
+    name = "CV"
+    url = "/cv/VivekSabarad_CV.pdf"
+  [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "/projects/"
+  [[params.profileMode.buttons]]
+    name = "Publications"
+    url = "/publications/"
+  [[params.profileMode.buttons]]
+    name = "Blog"
+    url = "/blog/"
+
   # Home-Info mode content
   [params.homeInfoParams]
     Title = "Hi, I'm Vivek"
