@@ -29,7 +29,7 @@ enableRobotsTXT = true
     url = "https://github.com/viveksabarad0221"
   [[params.socialIcons]]
     name = "linkedin"
-  url = ""
+  url = "https://www.linkedin.com/in/vivek-sabarad-7a206a1bb"
   [[params.socialIcons]]
     name = "email"
   url = "mailto:vivek.sabarad@students.iiserpune.ac.in"
@@ -63,3 +63,8 @@ enableRobotsTXT = true
   name = "Search"
   url = "/search/"
   weight = 6
+
+[[menu.main]]
+  name = "CV"
+  url = "/cv/VivekSabarad_CV.pdf"
+  weight = 7
