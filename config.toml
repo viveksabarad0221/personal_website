@@ -31,16 +31,16 @@ enableRobotsTXT = true
 
   [[params.profileMode.buttons]]
     name = "CV"
-    url = "/cv/VivekSabarad_CV.pdf"
+  url = "cv/VivekSabarad_CV.pdf"
   [[params.profileMode.buttons]]
     name = "Projects"
-    url = "/projects/"
+  url = "projects/"
   [[params.profileMode.buttons]]
     name = "Publications"
-    url = "/publications/"
+  url = "publications/"
   [[params.profileMode.buttons]]
     name = "Blog"
-    url = "/blog/"
+  url = "blog/"
 
   # Home-Info mode content
   [params.homeInfoParams]
@@ -60,35 +60,35 @@ enableRobotsTXT = true
 
 [[menu.main]]
   name = "About"
-  url = "/about/"
+  url = "about/"
   weight = 1
 
 [[menu.main]]
   name = "Blog"
-  url = "/blog/"
+  url = "blog/"
   weight = 2
 
 [[menu.main]]
   name = "Projects"
-  url = "/projects/"
+  url = "projects/"
   weight = 3
 
 [[menu.main]]
   name = "Publications"
-  url = "/publications/"
+  url = "publications/"
   weight = 4
 
 [[menu.main]]
   name = "Contact"
-  url = "/contact/"
+  url = "contact/"
   weight = 5
 
 [[menu.main]]
   name = "Search"
-  url = "/search/"
+  url = "search/"
   weight = 6
 
 [[menu.main]]
   name = "CV"
-  url = "/cv/VivekSabarad_CV.pdf"
+  url = "cv/VivekSabarad_CV.pdf"
   weight = 7
