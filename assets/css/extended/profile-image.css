@@ -1,0 +1,8 @@
+/* Ensure profile image never stretches; crop to square box */
+.profile .profile_inner img {
+  width: 160px;   /* match config params.profileMode.imageWidth */
+  height: 160px;  /* match config params.profileMode.imageHeight */
+  object-fit: cover; /* crop edges if aspect ratio differs; no distortion */
+  /* Optional: keep it square even if attributes differ */
+  aspect-ratio: 1 / 1;
+}
