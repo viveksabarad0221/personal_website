@@ -1,0 +1,65 @@
+baseURL = "https://viveksabarad0221.github.io/personal_website/"
+languageCode = "en-us"
+title = "Vivek Sabarad"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  author = "Vivek Sabarad"
+  defaultTheme = "auto"
+  showReadingTime = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  showPostNavLinks = true
+  disableScrollToTop = false
+  hideFooter = false
+
+  # Home-Info mode content
+  [params.homeInfoParams]
+    Title = "Hi, I'm Vivek"
+    Content = "Welcome to my personal website. I share my projects, notes, and posts here."
+
+  # Social icons (fill in your links or remove an entry)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/viveksabarad0221"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:"
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 2
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 3
+
+[[menu.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 5
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 6
