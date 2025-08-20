@@ -29,10 +29,10 @@ enableRobotsTXT = true
     url = "https://github.com/viveksabarad0221"
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://www.linkedin.com/in/"
+  url = ""
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:"
+  url = "mailto:vivek.sabarad@students.iiserpune.ac.in"
 
 [[menu.main]]
   name = "About"
